@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TicTacToe_chatting/static/css/main.abab60c8.css",
+    "main.js": "/TicTacToe_chatting/static/js/main.6c8d46b8.js",
+    "static/media/PermanentMarker.ttf": "/TicTacToe_chatting/static/media/PermanentMarker.109a10dca0508e41aa12.ttf",
+    "index.html": "/TicTacToe_chatting/index.html",
+    "main.abab60c8.css.map": "/TicTacToe_chatting/static/css/main.abab60c8.css.map",
+    "main.6c8d46b8.js.map": "/TicTacToe_chatting/static/js/main.6c8d46b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abab60c8.css",
+    "static/js/main.6c8d46b8.js"
+  ]
+}
