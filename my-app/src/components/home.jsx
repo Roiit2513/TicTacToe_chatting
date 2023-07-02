@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import JoinRoom from "./form";
 import "../CSS/home.css";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://tictactoe-mskw.onrender.com");
 
 function Home() {
   return (
