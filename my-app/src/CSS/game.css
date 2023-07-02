@@ -1,0 +1,50 @@
+@font-face {
+    font-family: marker;
+    src: url("../components/PermanentMarker.ttf");
+}
+.game-page{
+    padding: 0;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-page h1{
+    font-size: 40px;
+    font-family: marker;
+    margin: 20px;
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 48, 31);
+    border-radius: 20px;
+}
+
+.row{
+    flex: 33.33%;
+    display: flex;
+}
+
+.square{
+    width: 33.33%;
+    height: 100%;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: marker;
+    font-size: 70px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.square:active{
+    background-color: rgba(0, 0, 0, 0.555);
+}
