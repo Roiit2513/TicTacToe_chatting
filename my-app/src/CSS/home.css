@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.logged-in{
+.logged-in {
     display: flex;
 }
 
@@ -22,6 +22,7 @@
     margin: 30px 20px;
     font-size: 30px;
     font-family: cursive;
+    text-align: center;
 }
 
 .joinRoom input,
@@ -36,18 +37,20 @@ button {
     border-bottom: solid 1px;
 }
 
-.joinRoom button:hover{
+.joinRoom button:hover {
     background-color: black;
     color: aliceblue;
     transition: 0.5s;
 }
-.create-join{
+
+.create-join {
     display: flex;
     border-top: solid 1px;
     border-bottom: solid 1px;
     margin: 50px 0px 0px 0px;
 }
-.create{
+
+.create {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +59,8 @@ button {
     padding: 20px 20px;
     margin: 10px;
 }
-.join{
+
+.join {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +68,8 @@ button {
     padding: 20px 20px;
     margin: 10px;
 }
-button{
+
+button {
     cursor: pointer;
 }
 
@@ -136,19 +141,22 @@ button{
     flex-direction: column;
 }
 
-.msg-box p{
+.msg-box p {
     margin: 5px 10px;
     font-size: 20px;
 }
-.msg-box .msg-author{
+
+.msg-box .msg-author {
     font-size: 15px;
     color: rgb(169, 175, 180);
 }
-.msg-box .msg-time{
+
+.msg-box .msg-time {
     font-size: 15px;
     color: rgb(169, 175, 180);
     text-align: end;
 }
+
 .box {
     display: flex;
 }
@@ -161,3 +169,32 @@ button{
     background-color: rgb(17, 124, 17);
 }
 
+@media screen and (max-width: 420px) {
+    .joinRoom {
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .create-join {
+        flex-direction: column;
+    }
+
+    .create {
+        border-right: none;
+        border-bottom: solid 1px;
+    }
+
+    .logged-in{
+        flex-direction: column;
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chat-box {
+        width: 350px;
+        margin: 0px;
+        margin-top: 50px;
+    }
+}

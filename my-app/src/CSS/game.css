@@ -2,7 +2,8 @@
     font-family: marker;
     src: url("../components/PermanentMarker.ttf");
 }
-.game-page{
+
+.game-page {
     padding: 0;
     margin: 50px;
     display: flex;
@@ -11,13 +12,13 @@
     align-items: center;
 }
 
-.game-page h1{
+.game-page h1 {
     font-size: 40px;
     font-family: marker;
     margin: 20px;
 }
 
-.board{
+.board {
     width: 500px;
     height: 500px;
     display: flex;
@@ -26,12 +27,12 @@
     border-radius: 20px;
 }
 
-.row{
+.row {
     flex: 33.33%;
     display: flex;
 }
 
-.square{
+.square {
     width: 33.33%;
     height: 100%;
     border: solid 1px white;
@@ -45,6 +46,27 @@
     border-radius: 20px;
     transition: 0.5s;
 }
-.square:active{
+
+.square:active {
     background-color: rgba(0, 0, 0, 0.555);
+}
+
+@media screen and (max-width: 420px) {
+    .game-page {
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .game-page h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .board {
+        width: 350px;
+        height: 350px;
+        margin: 0px;
+    }
 }
